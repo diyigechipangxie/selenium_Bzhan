@@ -24,9 +24,9 @@ class Bili(object):
 
 	def input_keys(self):
 		el_user = self.driver.find_element_by_xpath('//*[@id="login-username"]')
-		el_user.send_keys('13476033786')
+		el_user.send_keys('username')
 		el_pwd = self.driver.find_element_by_xpath('//*[@id="login-passwd"]')
-		el_pwd.send_keys('39881105..')
+		el_pwd.send_keys('password')
 
 		el_login = self.driver.find_element_by_xpath('//*[@id="geetest-wrap"]/div/div[5]/a[1]')
 		el_login.click()
