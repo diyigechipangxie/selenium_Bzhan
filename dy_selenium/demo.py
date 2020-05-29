@@ -19,8 +19,8 @@ class LoginBD(object):
 		self.driver.find_element_by_xpath('//*[@id="u1"]/a[2]').click()
 		self.driver.implicitly_wait(5)
 		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__footerULoginBtn"]').click()
-		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__userName"]').send_keys('红发千本樱')
-		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__password"]').send_keys('Xxy39881105/*')
+		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__userName"]').send_keys('')
+		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__password"]').send_keys('')
 		self.driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__submit"]').click()
 		time.sleep(5)
 
